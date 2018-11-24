@@ -10,7 +10,7 @@ if [ ! -x /usr/bin/curl ] ; then
 fi
 
 # get latest golang version
-VERSION="go1.10.3"
+VERSION="go1.11.2"
 
 # download
 curl -OL http://hyf-sw.oss-cn-beijing.aliyuncs.com/$VERSION.linux-amd64.tar.gz
